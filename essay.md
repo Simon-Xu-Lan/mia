@@ -1,0 +1,53 @@
+Mobile phones, a common item in life, are currently used by almost half of the world's population, and this number is increasing every day. This industrial activity is a global problem that affects humans and ecosystems.
+
+This is a disaster for the environment, because the process of manufacturing mobile phones to extract trace elements, in addition to polluting the atmosphere, also destroys ecosystems, and the resulting wastewater can seep into soil and water, pollute river systems and drinking water, and it is worth noting that, gold mining is one of the main causes of deforestation, and the metal extracted from gold mines is used in the manufacture of mobile phones, which produces more greenhouse gases than any other electronic device. To make matters worse, many consumers replace their phones every two years, and in most cases, the phones are replaced when they are still functional, but decommissioned devices are not recycled, whose components are left in drawers and depreciate in value.
+
+If these products end up in landfills, the toxic metals in cell phones will still continue to contaminate water and soil, so changing consumer habits can improve e-waste management, collecting old cell phones to make recycling of their materials profitable, At the same time, it will encourage recycling companies to develop more efficient recycling technologies, prohibit the replacement of marketing advertisements by merchants with advertisements for recycled products, prolong the service life of products as much as possible, support more telephone repair companies, and make the use of repaired products more common are effective measures.
+
+Smartphones have changed human life and the world in a very short period of time. Today's mobile phone is the vehicle to the online world, a tool for finding people almost anywhere, anytime. While people can still send emails while traveling, or keep in touch with loved ones 24 hours a day. In the case of cell phone users in the Unite States, the average cell phone usage time is about 2 years, although its lifespan could be longer,  users are often tempted to replace their phones early because the new contract scheme makes the new phone appear to be a free gift, or the phone's accessories such as the screen or battery fail, making repairs cumbersome and expensive, and the user has to throw it away.
+According to Nathan(2018), 151 million cell phones are thrown away in the United States every year. The total amount of e-waste has continued to grow in recent years. According to lan (2021), global e-waste generation reached 53.6 million tons in 2019, an increase of 21% over the past five years. Another set of astonishing data is mentioned in the shari (2019) report. The global e-waste is worth more than 62.6 billion US dollars a year, exceeding the GDP of most countries. However, only 20% of electronic products are disposed of. , and 80% of the e-waste that is not recycled, their destination is not only dismantled into various parts and reused, but more of them are treated as garbage, taken for incineration or landfill, or sold to developing countries, using various chemical The recycling of valuable metal elements in e-waste is known as urban mining. But whether it is incineration, burial, or urban mining, it will almost pollute the environment and even affect human health.
+In remote environments, miners mine tons of metal ores and precious metals for use by mobile phone manufacturers. These mined metal minerals need to be refined and processed through complex procedures, and workers are often unknowingly exposed to among the chemicals that are harmful to their health
+
+Lan (2021) report also stated that an average of 7.3 kg of e-waste was discarded per person per year over the past five years. E-waste is harmful to health and the environment, and it contains mercury that can damage the human brain and coordination system. Nonetheless, people do not dispose of discarded mobile phones mainly for the following reasons:
+1. Cognitive barriers, do not know how to deal with them
+Although people know that it is not possible to directly throw waste electronic products into the trash can, people not sure and have not studied how to deal with it.
+Hope to exchange the phone for good value
+Most consumers believe that idle electronics have at least some monetary value, and consumers do not consider their idle electronics to be waste, especially if they may not be faulty. Therefore, it may not be possible to receive electronic products that are still usable, or considered valuable.
+3. Nostalgia and backup psychology
+Electronic products that carry emotional memories make it difficult for consumers to give up. Some consumers regard mobile phones that are not currently in use as backup products and think that they will have the opportunity to use them in the future.
+4. Consideration of convenience
+Consumers consider convenience in almost everything they do, but even if there are convenient recycling channels, they still find it troublesome, because most people think that the urgency of recycling electronic products is low.
+
+The recycling revolution still faces many challenges. In addition to people’s reluctance to dispose of discarded mobile phones, another difficulty is that it is very difficult to recycle and dispose of electronic waste in an environmentally friendly way. It not only requires sufficient technology to separate valuable metals , but also have a way to deal with the subsequent chemical agents. Therefore, this work is very complicated and requires a lot of capital investment, and there is not necessarily a way to make enough profits.
+According to a report published in Jack (2015), Guiyu Town, a city in southern China, is a well-known location for e-waste disposal. The city receives about 15,000 tons of garbage every day. , iron, aluminum parts, and other accessories will be discarded and incinerated. This extraction method seriously harms the local environment and people's health. The report mentioned that 80% of the children living in the city for a long time have high blood lead levels. One could even say that such recycling methods are worrisome because they pass the cost on to the environment and the health of the residents, so there is no way to make a profit.
+The countermeasures to improve the recycling of discarded mobile phones should be taken seriously. The first is publicity and education, popularizing the concept, specific processes, methods and responsibilities and obligations of electronic waste recycling, and establishing a supervision mechanism is one of the most important measures.
+Consumers should try to ask brands if they can offer product recycling services. It is a responsibility and obligation to return the product to the producer for recycling. People have reason to believe that the real developed countries do not have a high GDP, but achieve as much circular economy as possible.
+The second is to reduce the use of electronic products, try to extend the length of the use of electrical appliances, reduce elimination, and reduce the amount from the source is the most effective.For example, the idle mobile phone can be given to relatives and friends to continue to extend the service life of the product. Or try to exchange products you no longer need for other useful things through a formal exchange platform.
+Finally, an environmentally friendly recycling industry chain is established, so that those engaged in this work can achieve a balance between environmental protection and income. In this regard, in addition to the need for government departments to issue effective measures, it is also necessary to combine financial support from electronic product manufacturers and other aspects. In the production process, the product needs to be redesigned from the perspective of easy maintenance, reusable components, improved material recycling rate, no use of toxic and harmful substances in raw materials and manufacturing processes, and reduced energy consumption. A good product design, in addition to extending product life, is beneficial to the environment and health, and also improves the economy of recycling renewable resources.
+In general, consumers need to consider whether they really need this product in the pursuit of technology products. At the same time, reducing the emission of electronic waste can really reduce the damage to the environment. Giving more people the opportunity to clearly understand recycling information, emphasizing the value of electronic products, and improving the convenience of recycling are the factors that determine whether the recycling of mobile phones can be successful.
+
+Reference List: 
+Toxicity trends in E-Waste: A comparative analysis of metals in discarded mobile phones
+https://www.sciencedirect.com/science/article/abs/pii/S0304389419308519
+Americans Toss 151 Million Phones A Year. What If We Could Repair Them Instead?
+https://www.wbur.org/cognoscenti/2018/12/11/right-to-repair-nathan-proctor
+Global E-waste Surging: Up 21% in 5 Years
+http://www.ipsnews.net/2020/07/global-e-waste-surging-21-5-years/
+Electronics Hibernation
+https://www.gstatic.com/gumdrop/sustainability/electronics-hibernation.pdf
+The world's largest electronic-waste dump looks like a post-apocalyptic nightmare
+https://www.businessinsider.com/photos-of-chinas-electronic-waste-dump-town-guiyu-2015-7
+Global E-Waste - Statistics & Facts
+https://www.statista.com/topics/3409/electronic-waste-worldwide/
+UN report: Time to seize opportunity, tackle challenge of e-waste
+https://www.unep.org/news-and-stories/press-release/un-report-time-seize-opportunity-tackle-challenge-e-waste
+Your old phone is full of untapped precious metals
+https://www.bbc.com/future/article/20161017-your-old-phone-is-full-of-precious-metals
+Urban Mining of E-Waste is Becoming More Cost-Effective Than Virgin Mining
+https://pubs.acs.org/doi/10.1021/acs.est.7b04909
+Urban Mining
+https://copperalliance.org/policy-focus/climate-environment/urban-mining/
+Electronic Waste Policy
+https://www.etsu.edu/facilities/documents/policies/policy-1300.2.pdf
+Recycling Consumer Electronic watse
+https://www.dec.ny.gov/chemical/66872.html
