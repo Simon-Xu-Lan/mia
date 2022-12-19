@@ -19,11 +19,37 @@ Write your answers for the early non-coding questions in a simple text file call
 ## Quick Questions
 
 1. What is the PyCharm shortcut key for commenting selected line/s of code?
+   Win: CTRL + /, MAC: Command + /
+
 2. What is the single most important design principle for designing functions?
+   Slide 27
+   The Single Responsibility Principal (SRP) is the most important function design consideration
+
 3. What is the Python keyword for returning a value from a function?
+   return
+
 4. What are arguments and parameters? What is the difference between them?
+   Argument: An argument is a piece of data that is sent into a function
+   • Functions can use arguments in their bodies, so we use them to customise what a function does.
+   • An argument can be anything that evaluates to a value (expression), including a variable, constant, other function, a literal...
+   Parameter is what we call the variable inside the function that is assigned the value of an argument when the function is called
+   • A parameter's scope is the whole function in which the parameter is used.
+
+   A parameter is a variable in a function definition. It is a placeholder and hence does not have a specific value. An argument is a value passed when calling the function.
+   A parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.
+
 5. What is the Python function call for generating a random number between 1 and 100?
+   random.randint(1, 100)
+
 6. Name 4 functions we've used in the subject so far (functions we've "called").
+   is_hot
+   - Determin if temperature is hot
+     display_report
+   - Display a report
+     get_name
+   - Get a user's name
+     get age
+   - get age input
 7. How many grams of freshly-ground specialty coffee did Lindsay make his coffee with in the lecture video?
 
 ## Good Names
@@ -32,10 +58,10 @@ Consider the code:
 
 ```
 age = get_age()
-```  
+```
 
-Variables should be named using nouns. `age` sounds like a *noun*, so it's a thing, so it's a variable.  
-Functions should be named using verbs. `get_age` sounds like a *verb*, so it's a function.
+Variables should be named using nouns. `age` sounds like a _noun_, so it's a thing, so it's a variable.  
+Functions should be named using verbs. `get_age` sounds like a _verb_, so it's a function.
 
 Good function names usually complete the sentence: "This function will..."  
 Examples:
@@ -46,11 +72,22 @@ Examples:
 Write good names for the following functions:
 
 1. determine a subject grade based on a given total score
+   determine_grade
+
 2. convert currency from USD to AUD
+   convert_currency
+
 3. print a report
+   print_report
+
 4. calculate the average of a list of numbers
+   calculate_average
+
 5. determine if a number is even
+   is_number_even
+
 6. get a user's salary, making sure that it is not negative
+   get_salary
 
 # Python Coding - Functions
 
@@ -71,6 +108,7 @@ understand.
 
 According
 to [cancer.org](https://www.cancer.org/cancer/cancer-causes/diet-physical-activity/body-weight-and-cancer-risk/adult-bmi.html):
+
 > BMI is used to broadly define different weight groups in adults 20 years old or older. The same groups apply to both men and women.
 
 BMI (Body Mass Index) can be calculated by the formula:
@@ -79,7 +117,7 @@ BMI (Body Mass Index) can be calculated by the formula:
 weight in kg / (height in m ** 2)
 ```
 
-Remember "** 2" means "to the power of 2"
+Remember "\*\* 2" means "to the power of 2"
 
 The rough weight group categories defined by BMI are:
 
@@ -92,13 +130,13 @@ The client wants a program that will ask for a person's height and weight, then 
 
 ### Algorithm
 
-When we look at the problem, we can break it up into a number of main sections. This is *decomposition*.
+When we look at the problem, we can break it up into a number of main sections. This is _decomposition_.
 
 - get inputs (making sure they're valid)
 - calculate BMI
 - determine weight category
 
-Each of these can be implemented using *functions*.  
+Each of these can be implemented using _functions_.  
 Our main program algorithm will call the other functions.
 
 We should notice that getting the weight and getting the height are very similar tasks that could be done with almost no
@@ -179,14 +217,14 @@ def calculate_bmi(height, weight):
 ```
 
 **Do this now**  
-Create a new Python file, `example.py` (File > New > Python File)    
+Create a new Python file, `example.py` (File > New > Python File)  
 **Now, you type the above code (just the `calculate_bmi` function) in**, and **test it**...  
 But how do we test a function?  
 There are a number of ways, but what we will write a simple function with some tests in it to see what we get
 when we call our new calculation function.
 
 We'll do this for each of the functions, so follow along carefully, won't you?  
-**Note:** We are demonstrating a **best-practice**. You should be testing every function you write.  
+**Note:** We are demonstrating a **best-practice**. You should be testing every function you write.
 
 Add a simple testing function called `run_tests` at the top, so it looks like:
 
@@ -258,7 +296,7 @@ def main():
     print(f"This BMI is {bmi}, which is considered {category}")
 ```
 
-To run this, you will need to *comment out* the call to `run_tests()` at the bottom (don't delete it because we might
+To run this, you will need to _comment out_ the call to `run_tests()` at the bottom (don't delete it because we might
 want it again later). Then write a call to `main()` below it:
 
 ```python
@@ -298,7 +336,7 @@ def get_valid_number(prompt, low, high):
         print("Invalid input")
         number = float(input(prompt))
     return number
-```  
+```
 
 Notice that this function doesn't mention "height" or "weight". It has instead been designed to be generic and reusable.
 It's reusable for height or weight or age or ... any float! That's why our variable is just `number`. It's a generic and
@@ -307,7 +345,7 @@ not misleading name.
 Now, before we use this in our main program, we should... **test it!**  
 Change the last 2 lines of your program so `main()` is commented out and `run_tests()` is back in.
 
-Then add some tests. You should be able to do this yourself now. 
+Then add some tests. You should be able to do this yourself now.
 Write two calls to the function that get different values and save them into variables, then print those variables.
 
 ```python
@@ -318,12 +356,12 @@ print(weight)
 ```
 
 If that worked, go on. Otherwise, fix your function.  
-This is important, so we'll say it again... **You can't use a broken function!** 
+This is important, so we'll say it again... **You can't use a broken function!**
 You should not use an untested function. Test it, fix it if needed, then use it.
 
 We're in the final stretch now (\<insert exciting music>).  
 You may have noticed that we chose tests that exactly match what we want to use for our main program.  
-Comment out the two lines in main that get height and width now, and add the two lines from our tests.    
+Comment out the two lines in main that get height and width now, and add the two lines from our tests.  
 Change the last two lines of the program so that you're running/calling `main` and let's see it in action:
 
 ```
@@ -350,14 +388,39 @@ Here are a few more things to extend it just a bit more:
 
 - Change the printing of BMI (NOT the calculation) in `main` so that it only shows 1 decimal place (e.g., `44.4` not
   `44.44444`... as above).
+  - Solution
+  ```py
+  def main():
+    height = get_valid_number("Height (m): ", 0, 3)
+    weight = get_valid_number("Weight", 0, 300)
+    age = get_valid_number("Age", 0, 150)
+    bmi = calculate_bmi(height, weight)
+    category = determine_weight_category(bmi)
+    print(f"This BMI is {bmi:.1f}, which is considered {category}")
+  ```
 - If you have not done so already, complete your `run_tests` function so that you test each possible weight category (
   see note below).
+  - do it yourself
 - Add to your `main` to ask for the person's age using appropriate arguments for the `get_valid_number` function. Use the
-  age in the final output of your program.
+- Solution
+
+```py
+def main():
+  height = float(input("Height (m): "))
+  weight = float(input("Weight (kg): "))
+  age =
+  bmi = calculate_bmi(height, weight)
+  category = determine_weight_category(bmi)
+  print(f"This BMI is {bmi:.1f}, which is considered {category}")
+```
+
+age in the final output of your program.
+
 - Look at your code. Do you see any grey underlines in PyCharm? If you do, move your mouse over them (don't click, just
   move) and read the popup message. You might see a PEP8 warning - probably a missing line break or space. Press the
   shortcut key **Ctrl+Alt+L** (Windows) or **Cmd+Opt+L** (Mac) and watch all of your formatting problems get fixed!
   Smile :)
+  - do it yourself.
 
 #### Note: Test all the things
 
@@ -373,7 +436,7 @@ else
 ```
 
 Then there are 3 paths (A, B, C) that could possibly occur.  
-To test this properly, you need to write and run *at least* 3 tests, so you see things A, B and C.  
+To test this properly, you need to write and run _at least_ 3 tests, so you see things A, B and C.  
 Get into the habit of testing your code systematically and completely.  
 **Example/Motivation:**  
 Say you had something like:
@@ -399,7 +462,7 @@ this case.
 # Coding Exercises
 
 Until now, it's been fairly easy to fit our programs into one file. But now that we have multiple functions and each
-program should usually have a `main` function, we will use separate files for each exercise.   
+program should usually have a `main` function, we will use separate files for each exercise.  
 Write your answers in Python files named as instructed  
 At the top of each program, put a short **module docstring comment** with the exercise number/name (copy-and-paste it
 from here) so you/we know what the program is for later.  
@@ -411,10 +474,10 @@ Example:
 
 def main():
     ...
-``` 
+```
 
 **Note:** In any questions that ask you to write a function, you are expected to write test code to show that it works
-as expected. In some cases, you will be told how to test, and in others it is assumed.  \
+as expected. In some cases, you will be told how to test, and in others it is assumed. \
 Get used to writing simple tests, as in our example.
 
 ## 1. Coffee Brew Ratio
@@ -427,17 +490,18 @@ In practical 1 you wrote an algorithm for calculating a coffee brew ratio based 
 get dose, yield
 ratio = yield / dose
 print ratio
-``` 
+```
 
 Here, "ratio" is the number of grams of yield (brewed coffee) per 1 gram of dose (ground coffee), expressed as a float,
 e.g., 2.5.
 
 [According to La Marzocco](https://au.lamarzoccohome.com/brew-ratios-around-world/):
+
 > Using traditional Italian espresso nomenclature, we’ll refer to a brew ratio of 1:1 (18 grams in / 18 grams out, for example) to 1:2 (18 grams in / 36 grams out) as a “ristretto” espresso; a 1:2 to a 1:3 ratio as a “normale” espresso; and a 1:3 to 1:4 ratio as a “lungo” espresso.
 
 **Write an algorithm** to determine the coffee "style" based on the brew ratio.  
 E.g., a ratio of 2.5 (1:2.5) would be a "normale".  
-Note: We will consider anything outside the ranges defined above to match the nearest style,   
+Note: We will consider anything outside the ranges defined above to match the nearest style,  
 E.g., 1:0.1 wouldn't be good coffee, but we'd call it a "ristretto" and 1:100 would be dishwater, but let's call it a "
 lungo".
 
@@ -462,7 +526,7 @@ def check_coffee():
     print(style)  # This should be normale
     style = determine_coffee_style(13.5)
     print(style)  # This should be lungo
-``` 
+```
 
 Notice that we tested at least one of each style and some boundary conditions. (You could do more complete testing if
 you want.)
@@ -497,12 +561,12 @@ helpful resources you have. **Use them!**
 
 File: `parity.py`
 
-The parity of a number is the number % 2 and is either 0 or 1.   
+The parity of a number is the number % 2 and is either 0 or 1.  
 E.g., the parity of 4 is 0, and the parity of 41 is 1.
 
 This question requires 3 separate functions and a main to test them all.
 
-One of the most important parts of this question is to use good function *naming* (and that's one reason why the
+One of the most important parts of this question is to use good function _naming_ (and that's one reason why the
 solution is _not_ provided).  
 In each case, think about what is the most meaningful name you can come up with.  
 Remember: "This function will..."
@@ -520,7 +584,7 @@ what you might do for this question:
 
 ```
 Parity of 4 should be 0:  0
-Parity of 41 should be 1:  1 
+Parity of 41 should be 1:  1
 ```
 
 If all you do is call the function, you might see:
@@ -554,7 +618,7 @@ Leave your test code for the first version and just add new tests below.
 ### Part 3
 
 After you have written and tested the first two functions, write a third function that returns a Boolean (True or False)
-for whether the number passed into it **is odd**.    
+for whether the number passed into it **is odd**.  
 Recall from the lecture, that
 an [excellent and common convention for naming Boolean-returning functions](https://github.com/CP1404/Starter/wiki/Styles-and-Conventions#best-practice-suggestions)
 is to start their names with `is`.  
@@ -613,7 +677,7 @@ shows the percentage score/result you need to get different grades:
 - 75 up to but not including 85 = D
 - 85 and over = HD
 
-**Note**: think about the *boundary conditions* and don't miss anything. Remember to test your boundaries.  
+**Note**: think about the _boundary conditions_ and don't miss anything. Remember to test your boundaries.  
 Suppose you used 84 as your boundary, e.g., `if score > 84 then HD` Would that work?  
 No, because what if the score were 84.1? That should be a D, but your code would make it an HD!  
 This is where bugs come from :(  
@@ -694,7 +758,7 @@ between some realistic values that you set.
 
 ## C. Reverse Words
 
-Write a function called `print_reversed_words` that takes two string parameters and prints them in the reverse order.   
+Write a function called `print_reversed_words` that takes two string parameters and prints them in the reverse order.  
 E.g., calling `print_reversed_words("hi", "ho")` would print `ho hi`
 
 # Extension
@@ -711,7 +775,7 @@ Try and produce output like the following:
 1:2.5 is considered normale
 1:3.5 is considered lungo
 1:4.5 is considered lungo
-``` 
+```
 
 ## ii. Steakhouse 2
 
@@ -725,13 +789,13 @@ Think about the functions that make sense, including reusing your function for g
 
 Rewrite the [calculate tax (income) program from prac 3](https://github.com/CP1401/Practicals/tree/master/prac_03#1-tax)
 but note:  
-The calculation function should return 2 values (`total_tax` and `take_home_pay`).   
+The calculation function should return 2 values (`total_tax` and `take_home_pay`).  
 We did not learn about how to do this in the lecture, but you can return as many values as you want from a function.  
 To store these values, use multiple variables, like:
 
 ```python
 x, y = function_that_returns_2_values()
-```  
+```
 
 # Deliverables
 
