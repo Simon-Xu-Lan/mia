@@ -1,0 +1,64 @@
+1. What is the main difference between a list and a tuple?
+    Both list and tuple are sequence.
+    List is mutable.
+    tuple is immutable.
+
+    indexing using square brackets, e.g., numbers[1]
+        list: YES, tuple: YES
+    in Operator
+        list: YES, tuple: YES
+    Build in functions, such as len, min, max
+        list: YES, tuple: YES
+    del
+        list: YES, tuple: NO
+    Methods: append, reverse, sort
+        list: YES, tuple: NO
+
+2. What is the convention for naming lists?
+   Use plural names for naming list.
+
+3. What would be a good name for a list of cities?
+   cities
+
+4. How many elements can you store in a list?
+    the maximum size of a python list on a 32 bit system is 536,870,912 elements.
+
+    from
+    https://stackoverflow.com/questions/855191/how-big-can-a-python-list-get#:~:text=According%20to%20the%20source%20code,PY_SSIZE_T_MAX%2Fsizeof(PyObject*)%20.&text=On%20a%20regular%2032bit%20system,bit%20system%20is%20536%2C870%2C912%20elements.
+
+5. True or False? Elements in a list must all be of the same type (e.g. all strings or all integers)?
+    False
+
+6. What does Python's len function do? What types can it be used with?
+     The len function returns the length of any collection type
+     - list
+     - tuple
+     - string
+     - dictionary
+     - set
+
+
+
+Lists Warmup
+
+Warmup Part 1
+numbers = [10, 20, 40, 81]
+numbers[0]    10
+numbers[-1]   81
+numbers[3]    81
+20 in numbers    True
+1 in numbers     False
+numbers[1] + numbers[2]    30
+len(numbers)    4
+
+
+Warmup Part 2
+Change the first element of numbers to 1
+    numbers[0] = 1
+Change the last element of numbers to 4
+    numbers[-1] = 4
+Check if 1 is an element of numbers
+    i in numbers
+        True
+Print the second value in the list multiplied by 10
+    print(numbers[1] * 10)

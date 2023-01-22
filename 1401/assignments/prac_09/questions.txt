@@ -1,0 +1,40 @@
+Quick Questions
+
+1.Explain the difference between the 'r' and 'w' modes when opening a file.
+    'r': read, the default mode.
+    'w': write
+
+2.What is a file object and how is it different from a file name or the file's contents?
+    file object is created by open function.
+    the file object is associlated with a file on the disk.
+    file_object = open(filename, mode).
+    We can use file object to read contents in the file or write some contents to the file.
+
+3.Why is it necessary to close a file after it has been opened and used?
+    Failing to close a file could result in a loss of data or the file being inaccessible until the program closses.
+    So we should always close open files.
+
+4.What is a good principle for deciding whether a literal value should be stored in a CONSTANT?
+    Use constants when a literal is needed more than once.
+    Name constants variable in CAPS.
+
+5.Write a single Python expression that would evaluate to the file extension of a variable like
+    filename = "this_is_a_name.txt" or filename = "document.docx"
+    In those two examples, the result of the expression would be txt and docx respectively.
+
+
+    dot_position = filename.find(".")
+    file_extention = filename[dot_postion + 1 : ]
+
+6.What is a good number of quick questions to have at the start of a practical?
+    6
+
+
+Logic Exercise
+Consider the following list of 3 statements:
+    There is exactly 1 false statement in this list.
+    There are exactly 2 false statements in this list.
+    There are exactly 3 false statements in this list.
+How many false statements are there in the list; 0, 1, 2 or 3?
+
+    2

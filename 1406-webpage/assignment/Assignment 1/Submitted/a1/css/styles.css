@@ -1,0 +1,215 @@
+/*
+Author: Mei Zhong
+Date: 03/12/2022
+File Name: styles.css
+*/
+
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+  font-family: 'Francois One', sans-serif;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: rgb(12, 103, 168);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Style rules for mobile viewport */
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(12, 103, 168);
+  height: 200px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+header img {
+  /* margin: 5px 0; */
+  margin: auto;
+}
+
+/* Style rules for navigation area */
+nav {
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  font-size: 1.5em;
+  font-family: 'Francois One', sans-serif;
+  border-top: 1px solid #fff;
+}
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.5em 0 0.5em 0;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 0.75em;
+  text-align: center;
+  color: #fff;
+  padding: 0 1em;
+}
+
+footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Announcements {
+  background-color: #2196f3;
+  padding: 20px;
+}
+.resources {
+  /* background-color: #2196f3; */
+  padding: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  padding: 10px;
+  background-color: #2196f3;
+}
+
+.grid-container img {
+  width: 100vw;
+  margin: auto;
+}
+
+.item {
+  height: 500px;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.grid-container p {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 180px auto;
+}
+
+.grid-item {
+  padding: 20px;
+}
+
+main {
+  clear: left;
+  background-color: #fff;
+  padding: 2%;
+  font-size: 1.15em;
+  font-family: 'Roboto Slab', serif;
+}
+
+main h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+main p {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 630px) {
+  /* Tablet Viewport: Style rule for header */
+  header {
+    position: static;
+    padding-bottom: 2%;
+  }
+
+  /* Tablet Viewport: Style rules for nav area */
+  nav li {
+    border-top: none;
+    display: inline-block;
+    border-right: 1px solid #fff;
+  }
+
+  nav li:last-child {
+    border-right: none;
+  }
+
+  nav li a {
+    padding: 0.1em 0.75em;
+  }
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 769px) {
+  /* Desktop Viewport: Style rule for header */
+  header {
+    width: 25%;
+    float: left;
+    padding: 20px 0;
+  }
+
+  /* Desktop Viewport: Style rules for nav area */
+  nav {
+    float: right;
+    width: 70%;
+    margin: 4em 1em 0 0;
+  }
+  nav ul {
+    text-align: right;
+  }
+
+  nav li {
+    border: none;
+  }
+
+  nav li a {
+    padding: 0.5em 1em;
+  }
+
+  main {
+    clear: left;
+  }
+
+  main h1 {
+    font-size: 3em;
+  }
+
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+/* Media Query for Large Viewport */
+@media screen and (min-width: 2500px) {
+  main h1 {
+    font-size: 4em;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
