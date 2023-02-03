@@ -2580,7 +2580,7 @@ Effective risk management happens at two layers, as follows:
   - Asset tags – monitor the movement and condition of equipment, inventory, and people
     <img src="images/10-2-4.png" widh="500">
 
-# Device Hardening
+# 10-3 Device Hardening
 
 ## Device Hardening
 
