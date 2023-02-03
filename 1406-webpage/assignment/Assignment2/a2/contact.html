@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Student's First Name Student's Last Name -->
+
+<html lang="en">
+  <head>
+    <title>Busy Bee Florist</title>
+    <meta charset="utf-8" />
+    <!-- Added the follwing line-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Use the header area for the website name or logo -->
+      <header>
+        <a href="index.html"
+          ><img
+            src="images/busy-bee-florist-logo.png"
+            alt="Busy Bee Florist logo"
+        /></a>
+        <h1>Busy Bee Florist</h1>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="hours.html">Trading Hours</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="comments.html">Comments</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <main id="contact-main">
+        <hr />
+
+        <div id="form">
+          <h2>Complete the form below to begin your free trial.</h2>
+          <form
+            class="form-grid"
+            name="contactForm"
+            action="submitted.html"
+            onsubmit="return validateForm()"
+          >
+            <fieldset>
+              <legend>Customer Information</legend>
+              <label for="fName">First Name:</label>
+              <input type="text" name="fName" id="fName" class="info-input" />
+
+              <label for="lName">Last Name:</label>
+              <input type="text" name="lName" id="lName" class="info-input" />
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" class="info-input" />
+
+              <label for="phone">Phone:</label>
+              <input type="phone" name="phone" id="phone" class="info-input" />
+            </fieldset>
+
+            <fieldset class="Additionl-info">
+              <legend>Additional Information</legend>
+              <p>I would like more information about:</p>
+
+              <label for="grpfit">
+                <input
+                  type="checkbox"
+                  name="interest"
+                  id="grpfit"
+                  value="Flower Selection"
+                />
+                Flower Selection
+              </label>
+
+              <label for="prtrain">
+                <input
+                  type="checkbox"
+                  name="interest"
+                  id="prtrain"
+                  value="Flower Delivery"
+                />Flower Delivery
+              </label>
+
+              <label for="nutr">
+                <input
+                  type="checkbox"
+                  name="interest"
+                  id="nutr"
+                  value="Flower Nutrition"
+                />
+                Flower Nutrition
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Referral Source</legend>
+              <label for="reference">How did you find us?</label>
+              <select name="reference" id="reference">
+                <option value="ad">Advertisement</option>
+                <option value="friend">Friend</option>
+                <option value="google">Google</option>
+                <option value="social">Social Media</option>
+                <option value="other">Other</option>
+              </select>
+
+              <label for="questions">Questions?</label>
+              <textarea
+                id="questions"
+                name="questions"
+                rows="5"
+                cols="35"
+              ></textarea>
+            </fieldset>
+
+            <input type="submit" id="submit" value="Submit" class="btn" />
+          </form>
+        </div>
+      </main>
+
+      <footer>
+        <br />
+        <hr />
+        <p>Phone: <a href="tel:07 4779 1243">07 4779 1243</a></p>
+        <p>
+          Email:
+          <a href="mailto:forwardfitness@club.net"> forwardfitness@club.net</a>
+        </p>
+        <p>
+          Fax:
+          <a href="mailto:busybeeflorist@busybeemail.com.au">
+            busybeeflorist@busybeemail.com.au</a
+          >
+        </p>
+        <p>Address: 223 Bolsover St in Cairville, Queensland</p>
+        <p>&copy; Copyright 2021.All Rights Resrved.</p>
+        <p>
+          <a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
+        </p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

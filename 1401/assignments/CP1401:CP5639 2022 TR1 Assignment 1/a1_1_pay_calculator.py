@@ -14,10 +14,11 @@ display hourly_pay, total_pay
 """
 
 BASE_PAY = 45
+GROWTH_RATE = 0.05
 print("Experience Counts Pay Calculator")
 number_of_hours_worked = int(input("Number of hours worked: "))
 experience_level = int(input("      Experience level: "))
-hourly_pay = BASE_PAY * (1 + 0.05 * experience_level)
+hourly_pay = BASE_PAY * (1 + GROWTH_RATE * experience_level)
 total_pay = hourly_pay * number_of_hours_worked
 print(f"Based on your experience level ({experience_level}):")
 print(f"Your hourly pay rate is ${hourly_pay:.2f}")
