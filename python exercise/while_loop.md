@@ -70,7 +70,9 @@ i = 1
 while i < 6:
     # body of while loop
     print(i)
-    # check if i is 3. if true, execute break statement which will break the loop, the program will move to the statement after loop. If false, move to the next statement in the body of while loop (statement after if)
+    # check if i is 3.
+    #   if true, execute break statement which will break the loop, the program will move to the statement after loop.
+    #   If false, move to the next statement in the body of while loop (statement after if)
     if i == 3:
         break
     # increase i by 1
