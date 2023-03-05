@@ -1,4 +1,4 @@
-# while loop
+<details><summary>while loop</summary>
 
 ### while loop execute a set of statements as long as a condition is true.
 
@@ -43,11 +43,15 @@ print("After while loop")
 
 <img src="images/Example1.png" width="500px">
 
-## break
+<img src="images/while-loop-example-1.png" width="500px" />
 
-break can stop the loop if the while condition is true.
+</details>
 
-- Example: Exit the loop when i is 3
+<details><summary>While loop with break</summary>
+
+# break can stop the loop if the while condition is true.
+
+## Example: Exit the loop when i is 3
 
 ```py
 i = 1
@@ -56,6 +60,25 @@ while i < 6:
     if i == 3:
         break
     i += 1
+print("Statements after loop")
 ```
 
-<img src="images/while-loop-example-1.png" width="500px" />
+```py
+# Create a varialbe to control loop. Set initial/start value as 1
+i = 1
+# Test condition. if true, enter into while loop; if False, go to statements after loop
+while i < 6:
+    # body of while loop
+    print(i)
+    # check if i is 3. if true, execute break statement which will break the loop, the program will move to the statement after loop. If false, move to the next statement in the body of while loop (statement after if)
+    if i == 3:
+        break
+    # increase i by 1
+    i += 1
+
+print("Statements after loop")
+```
+
+<img src="images/while-loop-break.png" width="500px" />
+
+</details>
