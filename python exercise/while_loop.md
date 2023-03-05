@@ -58,4 +58,4 @@ while i < 6:
     i += 1
 ```
 
-<img src="images/while-loop-1.png" width="500px" />
+<img src="images/while-loop-example-1.png" width="500px" />
