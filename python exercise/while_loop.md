@@ -41,7 +41,10 @@ while i < 6:
 print("After while loop")
 ```
 
-<img src="images/Example1.png" width="500px">
+- flowchart 1
+  <img src="images/Example1.png" width="500px">
+
+- flowchart 2
 
 <img src="images/while-loop-example-1.png" width="500px" />
 
