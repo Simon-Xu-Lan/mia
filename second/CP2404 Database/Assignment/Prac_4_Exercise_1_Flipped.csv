@@ -1,0 +1,6 @@
+STU_NUM,STU_LNAME,STU_MAJOR,DEPT_CODE,DEPT_NAME,DEPT_PHONE,COLLEGE_NAME,ADVISOR_ID,ADVISOR_LNAME,ADVISOR_OFFICE,ADVISOR_BLDG,ADVISOR_PHONE,STU_GPA,STU_HOURS,STU_CLASS
+211343,Stephanos,Accounting,ACCT,Accounting,4356,Business Admin,1001,Grastrand,T201,Torre Building,2123,3.87,75,Junior
+200128,Smith,MBA,ACCT,Accounting,4356,Business Admin,1442,Gentry,T201,Torre Building,2123,2.78,45,Sophomore
+199876,Jones,Marketing,MKTG,Marketing,4378,Business Admin,1442,Gentry,T201,Torre Building,2123,2.31,117,Senior
+199877,Smith,Marketing,MKTG,Marketing,4378,Business Admin,1799,Tillery,T356,Torre Building,2159,3.45,113,Senior
+223456,McKulski,Statistics,MATH,Mathematics,3420,Arts&Sciences,1902,Chen,J331,Jones Building,3209,3.58,87,Junior
