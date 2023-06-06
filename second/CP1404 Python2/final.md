@@ -29,3 +29,22 @@ The name also is added to the list names.
 def student_info(age, country):
     print("Age: {} Country: {}".format(age, country))
 ```
+
+# 6
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/8ac615e3-110d-4fae-a0d3-73be2a0f1a44)
+
+### Solution
+
+```py
+from operator import itemgetter
+frequency = {}
+dna = list("acgtaact")
+for letter in dna:
+    try: 
+        frequency[letter] += 1
+    except:
+        frequency[letter] = 1
+sorted_frequency = dict(sorted(frequency.items(), key=itemgetter(1)))
+for key, value in sorted_frequency.items(): 
+    print(f"Frequency of {key} is {value}")
+```
