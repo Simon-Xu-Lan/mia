@@ -14,3 +14,8 @@ increment(counter)
 ### solution
 The name also is added to the list names.
 
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/fcb7f52f-59d9-477e-961f-ae08afe5a43c)
+
+### solution
+"Create a function to calculate area"
