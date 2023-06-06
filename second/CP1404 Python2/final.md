@@ -19,3 +19,13 @@ The name also is added to the list names.
 
 ### solution
 "Create a function to calculate area"
+
+# 5
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/8d49be99-350c-44f8-9711-ffdd98b264f0)
+
+### Solution
+
+```py
+def student_info(age, country):
+    print("Age: {} Country: {}".format(age, country))
+```
