@@ -69,4 +69,19 @@ while not is_valid_float:
 print(f"Cost of 10 Apples is ${10 * apple_cost:.2f}")
 ```
 
+# 10
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/86816507-bb1e-4cb0-a404-3df16ab4cd90)
+
+### Solution:
+a. Library - Book
+    - is composed of
+b. Bank Account – Fixed Account
+    - is a child of
+c. Pen - Travel
+    - is unrelated to
+d. Jim - Person
+    - is a child of 
+
+
+
 
