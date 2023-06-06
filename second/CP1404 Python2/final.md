@@ -48,3 +48,25 @@ sorted_frequency = dict(sorted(frequency.items(), key=itemgetter(1)))
 for key, value in sorted_frequency.items(): 
     print(f"Frequency of {key} is {value}")
 ```
+
+# 9
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/b635671d-3189-43e9-b13d-f02089456e4d)
+
+### solution:
+```py
+is_valid_float = False
+while not is_valid_float:
+    user_input = input("Cost of an Apple: ")
+    try:
+        apple_cost = float(user_input)
+        if apple_cost < 0 or apple_cost > 3:
+            print("Cost must be between 0 and 3")
+        else:
+           is_valid_float = True 
+    except ValueError:
+        print("Invalid input")
+    
+print(f"Cost of 10 Apples is ${10 * apple_cost:.2f}")
+```
+
+
