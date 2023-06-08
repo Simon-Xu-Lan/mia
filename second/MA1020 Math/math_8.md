@@ -37,3 +37,12 @@
 ### Solution
 ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/f2046034-99aa-42cc-b443-948f9657a301)
 
+# 6
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/e8591451-d9c2-4cfb-8b6f-85f8ef5db68b)
+
+没有图形，没法做。
+
+# 7
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/01cfb894-8ad0-4a70-903d-20efc9f4db2b)
+
