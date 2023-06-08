@@ -30,3 +30,10 @@
 
 ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/e000785d-eeca-4c0c-b38f-15fdb8db2633)
 
+
+# 5
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/05cc1bcb-f374-4807-a0e7-763bcda48609)
+
+### Solution
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/f2046034-99aa-42cc-b443-948f9657a301)
+
