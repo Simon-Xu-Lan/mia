@@ -46,3 +46,17 @@
 
 ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/01cfb894-8ad0-4a70-903d-20efc9f4db2b)
 
+### solution:
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/9043d22b-a2f9-49a8-98c0-e3b6e2116347)
+
+
+# 8
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/f2db78ae-3f86-4574-a489-daea76838ca1)
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/3b7cdc2f-69b8-4bd9-9a4c-565d2189b8c1)
+
+<img width="585" alt="image" src="https://github.com/Simon-Xu-Lan/mia/assets/60492659/5d49ab73-a10f-4cb8-8caf-523bab7a7284">
+
+
