@@ -14,3 +14,19 @@
 ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/136d68e0-a77a-45ad-b35e-d19a1c1441c8)
 
 ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/58ce3632-a33b-44f6-877a-88ab69c82cfa)
+
+
+# 3
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/4c49405b-2db9-489b-8f7a-8083be609a4e)
+
+### Solution
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/c6066599-f242-4b48-9e6e-4d2b42a1897e)
+
+
+# 4
+ ![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/72b54094-6b23-4b9b-a0ed-5382188988c6)
+
+### Solution
+
+![image](https://github.com/Simon-Xu-Lan/mia/assets/60492659/e000785d-eeca-4c0c-b38f-15fdb8db2633)
+
